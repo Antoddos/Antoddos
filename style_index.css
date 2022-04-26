@@ -1,0 +1,93 @@
+div#header h2
+	{
+	color: #18B0E0; 
+	height: 230px; 
+	font-size: 140px; 
+	text-align: center; 
+	margin: 0; 
+	padding-top: 7%; 
+	padding-right: 20%;
+	}
+div#index
+	{
+	background-color: white; 
+	display: grid; 
+	padding: 0 100px 10px 25px;
+	}
+h1.titre
+	{
+	color: #008080; 
+	font-size: 25px; 
+	margin-bottom: 25px; 
+	margin-top: 50px; 
+	margin-left: 10px; 
+	text-align: left; 
+	border-bottom: 1px solid #008080;
+	}
+.article
+	{
+	display: inlide; 
+	background-color: white; 
+	width: 100%; 
+	height: 170px; 
+	margin: 10px; 
+	float: left; 
+	padding:0;
+	border: 2px solid #FAEF5F; 
+	box-shadow: 10px 5px 5px #F0F0F0;
+	}
+.article:hover
+	{
+	box-shadow: 10px 5px 5px #E5E4E7;     
+	}
+.article:hover .head a img 
+	{
+	width: 240px; height: 100%;
+	}
+.article:hover #article-titre a h2
+	{
+	font-size: 19px;
+	}
+.head
+	{
+	display: block; 
+	float: left;
+	width: 220;
+	height: 100%;
+	margin-right: 20px;
+	padding-bottom: 5px;
+	}
+.head a img
+	{
+	width: 220px; 
+	height: 95%;
+	}
+div#article-titre 
+	{
+	display: inlide; 
+	width: 100%;
+	}
+div#article-titre a
+	{
+	text-decoration: none;
+	}
+div#article-titre a h2
+	{
+	color: #54d0e2; 
+	font-size: 18px; 
+	letter-spacing: .5px; 
+	line-height: 1.3em; 
+	text-align: justify;
+	}
+div#article-titre a h2:hover
+	{
+	color: #0E8DE6;
+	}
+div#article-titre a p
+	{
+	color: black; 
+	font-size: 16px; 
+	letter-spacing: .5px; 
+	line-height: 1.3em; 
+	text-align: justify;
+	}
